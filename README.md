@@ -24,4 +24,9 @@ go mod tidy
 ```bash
 $go run . --domain https://tailwindcss.com/
 ```
+- For specifying port you can use flag `--port`
+```bash
+$go run . --domain https://localhost --port 8080
+```
 ## Demo
+![Screenshot 2025-03-29 171312](https://github.com/user-attachments/assets/28576e9f-958b-4de1-8997-1f5f3d2b8d47)
